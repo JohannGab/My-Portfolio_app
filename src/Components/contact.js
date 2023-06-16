@@ -38,7 +38,7 @@ const Contact = ({ url }) => {
         e.preventDefault();
         axios({
             method: "POST", 
-            url:"https://back-end-johann.herokuapp.com/send", 
+            url:"https://back-end-johann-a8d15cb40d06.herokuapp.com/send", 
             data:  {
                 name,
                 email,
